@@ -1,15 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 
-import Home from './components/home';
+import Balance from './components/balance';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <hr />
-        <Home />
+        <Balance />
       </header>
     </div>
   );
